@@ -1,0 +1,516 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-left: 2em !important;
+}
+
+.spi {
+  display: block;
+  font-size: 12px;
+  margin-left: 2em;
+}
+
+.nav {
+  background-color: #131921;
+}
+
+select {
+  height: 2.5em;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: none;
+  background-color: #F3F3F3;
+}
+
+.header__search {
+  background-color: #cd9042;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 5px;
+  width: 35em;
+}
+
+.header__searchInput {
+  height: 2.5em;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.jeje {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+#cuentas {
+  height: 1.5em;
+  color: #F3F3F3;
+  background-color: inherit;
+}
+
+.spia {
+  display: block;
+  font-size: 12px;
+  color: #F3F3F3;
+}
+
+.white {
+  color: #F3F3F3 !important;
+  text-decoration: none;
+}
+
+.bobx {
+  margin-top: 0.7em;
+  cursor: pointer;
+}
+
+#tabs {
+  background-color: #242F3E;
+  letter-spacing: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+.imgFooter {
+  margin: auto;
+}
+
+.divlogo {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.correo {
+  width: 100%;
+  border: 1px solid lightgrey;
+  margin-bottom: 1em;
+  padding: 0.4em;
+  border-radius: 5px;
+}
+
+.password {
+  display: block;
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 0.4em;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+.password2 {
+  display: block;
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 0.4em;
+  border-radius: 5px;
+  margin-bottom: -1em;
+}
+
+#boton {
+  background-color: inherit;
+  border-style: none;
+  margin: auto;
+}
+
+.iconos {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.terminos {
+  font-size: 11px;
+  line-height: 2px;
+}
+
+.ya {
+  text-align: center;
+  font-size: 14px;
+}
+
+.creatucuenta {
+  border-style: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 30%;
+  background-color: #F3F3F3;
+  height: 2em;
+  margin-top: 0em;
+}
+
+.chitito {
+  margin-top: -3em;
+}
+
+.yatienes {
+  margin-bottom: 0;
+}
+
+#categorias {
+  width: 100%;
+  outline: none;
+}
+
+.file {
+  display: flex;
+  margin-top: 0.4em;
+}
+.file input {
+  width: 80%;
+}
+.file label {
+  margin-right: 10px;
+}
+
+.cont-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  height: 23em;
+  padding: 1em;
+  border-radius: 10px;
+  width: 20em;
+  margin: 0.5em;
+}
+.card .aja {
+  text-decoration: none;
+}
+.card .img {
+  text-align: center;
+}
+.card img {
+  object-fit: contain;
+}
+.card h5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 16px;
+}
+.card h5:hover {
+  color: cadetblue;
+  cursor: pointer;
+}
+.card span {
+  font-size: 20px;
+  color: brown;
+}
+
+.contImgDetalle {
+  display: flex;
+  flex-direction: column;
+}
+.contImgDetalle img {
+  object-fit: contain;
+}
+
+.cont-detalle {
+  display: flex;
+  padding: 2em;
+}
+
+.cont-img-principal img {
+  object-fit: contain;
+}
+.cont-img-principal .imgP {
+  object-fit: contain;
+  margin-left: 1em;
+}
+
+.list {
+  width: 100%;
+}
+
+.info {
+  width: 32%;
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap");
+  font-family: "Roboto", sans-serif;
+  margin-left: 2em;
+}
+.info .precio-cant {
+  font-size: 19px;
+  color: #AF2913;
+}
+.info .envio {
+  color: #333333;
+  font-weight: bold;
+  font-size: 15px;
+}
+.info .detalles {
+  color: #0E7184;
+  font-size: 14px;
+}
+.info .intereses {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1em;
+}
+.info .mensualidades {
+  color: #0E7184;
+}
+.info .tarjeta {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1em;
+}
+.info .tarjeta .blue {
+  color: #0E7184;
+  font-weight: 600;
+}
+.info .precio-negro {
+  font-size: 15px;
+}
+.info .precio-negro .negro {
+  font-weight: bold;
+}
+.info .about {
+  font-weight: bold;
+  margin-top: 1em;
+}
+.info .info-about {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.comprar {
+  border: 1px solid lightgrey;
+  width: 15em;
+  height: 49vh;
+  margin-left: 0.5em;
+  padding: 1em;
+}
+.comprar .precio-p {
+  color: #AF2913;
+  font-size: 20px;
+}
+.comprar .envio-gratis {
+  color: #333333;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.comprar .detalles-car {
+  font-size: 13px;
+  color: #0E7184;
+}
+.comprar .llega {
+  line-height: 24px;
+  font-size: 14px;
+}
+.comprar .llega .fecha {
+  font-weight: bold;
+}
+.comprar .navidad {
+  font-weight: 700;
+  color: #AF2913;
+  font-size: 13px;
+}
+.comprar .btn-carrito {
+  border-style: none;
+  width: 100%;
+  height: 3em;
+  border-radius: 7px;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  line-height: 14.06px;
+  font-size: 12px;
+  background-color: #F3D184;
+}
+.comprar .btn-carrito img {
+  margin-right: 1em;
+}
+.comprar .btn-comprar-ahora {
+  border-style: none;
+  width: 100%;
+  height: 3em;
+  border-radius: 7px;
+  margin-bottom: 0.5em;
+  line-height: 14.06px;
+  font-size: 12px;
+  background-color: #F0AD64;
+  margin-bottom: 1em;
+}
+.comprar .btn-comprar-ahora img {
+  margin-right: 1em;
+  margin-left: -16px;
+}
+
+.transaccion {
+  width: 100%;
+  text-align: center;
+}
+.transaccion span {
+  color: #0E7184;
+}
+
+.marca {
+  color: #0E7184;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.precio {
+  font-size: 15px;
+  font-style: normal;
+}
+
+.similar {
+  display: flex;
+}
+
+.similar-cont {
+  padding: 1em;
+}
+.similar-cont h2 {
+  font-size: 23px;
+  font-weight: bold;
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@0,500;1,400&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+.comentario {
+  width: 50%;
+  padding: 2em;
+}
+.comentario .encabezado-coment {
+  display: flex;
+  margin-bottom: 1em;
+}
+.comentario .encabezado-coment h5 {
+  margin-top: 0.8em;
+}
+.comentario .p {
+  color: gray;
+}
+
+.buscador {
+  display: flex;
+}
+.buscador .header__searchInput {
+  width: 19.5em;
+}
+
+.header__searchIcon {
+  margin-top: 8px;
+}
+
+.carrito {
+  display: flex;
+  width: 95%;
+}
+.carrito .tablita {
+  display: flex;
+  margin-top: 2em;
+  margin-left: 1em;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 1em;
+}
+.carrito .tablita .img {
+  margin-right: 1em;
+}
+.carrito h5 {
+  width: 55%;
+}
+.carrito .cuenta {
+  width: 2em;
+  height: 2em;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #F0AD64;
+}
+.carrito .suma {
+  width: 2em;
+  height: 2em;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #cd9042;
+  margin-right: 2em;
+}
+.carrito .jux {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+.carrito .logout {
+  text-align: center;
+  justify-content: center;
+}
+.carrito .delete {
+  margin-left: 2em;
+  width: 5em;
+  background-color: #AF2913;
+  border-style: none;
+  color: white;
+  height: 2em;
+  border-radius: 10px;
+}
+.carrito .flex {
+  display: flex;
+  margin-top: 5em;
+}
+.carrito .name {
+  margin-top: 2em;
+}
+
+.img {
+  object-fit: contain;
+  margin-left: 1em;
+}
+
+.pagar {
+  text-align: center;
+}
+.pagar h4 {
+  color: #0E7184;
+}
+.pagar span {
+  font-size: 25px;
+}
+.pagar .btn-pagar {
+  width: 6em;
+  height: 2em;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #cd9042;
+  color: #F3F3F3;
+  margin-bottom: 4em;
+}
+.pagar .img-carrito, .pagar .carrito {
+  display: inline-block;
+}
+.pagar .car {
+  display: flex;
+  flex-direction: row;
+  width: 5em;
+}
+
+.hidden {
+  display: none;
+}
+
+.alertToLogin {
+  justify-content: center;
+  text-align: center;
+}
+
+.identificate {
+  margin-left: 6.5em;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #cd9042;
+}
+
+.handleLogout {
+  margin-left: 8em;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #cd9042;
+  width: 4em;
+}
+
+/*# sourceMappingURL=styles.css.map */
